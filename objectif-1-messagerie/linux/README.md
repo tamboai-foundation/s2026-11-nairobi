@@ -1,17 +1,49 @@
-# Objectif 1 : messagerie instantanée chiffrée de bout en bout, avec chatbot intégré
+# Application Linux — Objectif 1 : Messagerie chiffrée & Chatbot
 
-Objectif commun à toutes les équipes, **multiplateforme** (Linux, Windows, Mac, Android, iOS, web…).
-Chaque équipe choisit **une seule plateforme** et travaille dans son sous-dossier : `<plateforme>/`.
+Ce dossier contient le code source et la documentation de l'application de messagerie instantanée chiffrée de bout en bout (avec chatbot intégré) développée pour **Linux** par notre équipe.
 
-## Tâches (dans l'ordre : on ne reçoit la suivante qu'après avoir validé la précédente)
-1. Terminer la configuration complète de votre profil sur le site Foundation.
-2. Rejoindre l'organisation GitHub et ce dépôt.
-3. Choisir la plateforme de l'équipe.
-4. Installer l'environnement de travail complet (git, extensions, outils de compilation).
-5. Cloner le projet depuis ce dépôt et le compiler en local.
+---
 
-Le détail et l'état de vos tâches sont sur le site Foundation, dans « Mes tâches ».
+## Objectifs du module Linux
+* Offrir une interface fluide sous Linux pour échanger des messages en temps réel.
+* Garantir le chiffrement de bout en bout des conversations entre utilisateurs.
+* Intégrer un assistant virtuel (chatbot) directement dans la messagerie.
 
-## Séances live
-- Introduction aux systèmes d'information client/serveur
-- Introduction à la cryptographie
+---
+
+## Structure du dossier (à compléter selon notre architecture)
+```text
+linux/
+├── README.md        # Documentation principale de la plateforme Linux
+├── src/             # Code source de l'application (interface, réseau, crypto, chatbot)
+└── tests/           # Tests unitaires et tests d'intégration
+```
+
+---
+
+## ⚙️ Installation et lancement en local
+
+### 1. Prérequis
+* Système d'exploitation : Distribution Linux (Ubuntu, Debian, Kali, Fedora, etc.)
+* Outils de base : `git` et les outils de compilation/exécution adaptés à notre langage.
+*(À compléter avec les dépendances exactes dès que la stack technique est figée).*
+
+### 2. Récupérer le projet
+```bash
+git clone https://github.com
+cd s2026-11-nairobi
+git checkout develop
+git pull
+```
+
+### 3. Compiler et exécuter
+*(Les commandes exactes de compilation et de lancement seront ajoutées ici après l'initialisation du code source).*
+
+---
+
+## Règles de contribution pour l'équipe
+1. Toujours partir de `develop` à jour : `git checkout develop && git pull`
+2. Créer une branche dédiée : `git checkout -b objectif-1/<prenom>-<tache>`
+3. Placer tout le code dans `objectif-1-messagerie/linux/`.
+4. Ne jamais pousser de mots de passe, clés privées ou jetons API.
+5. Ouvrir une **Pull Request** vers `develop` pour relecture par le Team Lead.
